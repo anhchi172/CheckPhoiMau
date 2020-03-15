@@ -1,5 +1,8 @@
-public class Controls{
+import java.util.ArrayList;
+import java.util.Scanner;
 
+public class Controls{
+Scanner scan = new Scanner(System.in);
    private String text;
    private int colorBackground;
    private int colorText;
